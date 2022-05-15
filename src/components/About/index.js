@@ -32,7 +32,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p >
             I'm a very ambitious full-stack developer looking for an entry level role with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
@@ -40,7 +40,7 @@ const About = () => {
             I'm naturally curious, and perpetually working on
             improving my skills one problem at a time since completing a coding bootcamp. 
           </p>
-          <p>
+          <p >
             I studied the PERN stack with Thinkful. The bootcamp provided a 9 Month mentorship from a senior software engineer, meeting twice weekly to learn industry standards in both front and back-end technologies.
           </p>
 

@@ -7,6 +7,9 @@
 .top-tags {
   bottom: auto;
   top: 35px;
+    animation: bounceInDown;
+    animation-duration: 1s;
+    animation-delay: 1s;
 }
 
 .tags {
@@ -15,13 +18,19 @@
   position: absolute;
   bottom: 0;
   left: 120px;
-  font-size: 18px;
+  font-size: 30px;
   font-family: 'La Belle Aurore', cursive;
+  animation: bounceInDown;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
+
 
 .bottom-tag-html {
   margin-left: -20px;
 }
+
+
 
 .container {
   width: 100%;
@@ -50,6 +59,8 @@
     display: table-cell;
     max-height: 90%;
 
+   
+
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
@@ -70,6 +81,9 @@
         left: -10px;
         opacity: 0.6;
         line-height: 18px;
+        animation: bounceInDown;
+        animation-duration: 1s;
+        animation-delay: 1s;
       }
 
       &:after {
@@ -83,6 +97,9 @@
         bottom: -20px;
         margin-left: 20px;
         opacity: 0.6;
+        animation: bounceInDown;
+        animation-duration: 1s;
+        animation-delay: 1s;
       }
     }
 

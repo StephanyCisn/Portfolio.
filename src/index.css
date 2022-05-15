@@ -5,10 +5,11 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  font-weight: bold;
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #022c43;
+  background: #6d6875;
   overflow: hidden;
   display: block;
 }

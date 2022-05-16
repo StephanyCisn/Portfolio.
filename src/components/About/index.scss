@@ -10,7 +10,16 @@
   overflow: hidden;
 }
 
+.text-zone{
+font-size: 15px;
+color: #fff;
+text-align: justify;
+}
 
+ul {
+  margin-left: calc(30% - 100px);
+  text-align: center;
+}
 
 .cubespinner {
   animation-name: spincube;

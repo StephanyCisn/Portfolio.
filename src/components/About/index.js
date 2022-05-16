@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <div className="text-zone">
+      <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -32,7 +32,8 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p >
+        
+         <p >
             I'm a very ambitious full-stack developer looking for an entry level role with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
@@ -43,24 +44,35 @@ const About = () => {
           <p >
             I studied the PERN stack with Thinkful. The bootcamp provided a 9 Month mentorship from a senior software engineer, meeting twice weekly to learn industry standards in both front and back-end technologies.
           </p>
-
+          <br></br>
           <ul>
-        <li>
+        <li > 
           <a 
-          href="https://finalcap-client.herokuapp.com/dashboard"
+          href="https://final-cap-frontend.vercel.app/dashboard"
           >
-         Restaurant Reservation Application
+         Restaurant Reservation Application: 
+         <br></br>
+         Built with PostgreSQL, Express, React and Node.
+         <br></br>
+         This application is for creating and managing tables and reservations for a hypothetical restaurant. 
           </a>
            </li>
+           <br></br>
            <li>
           <a 
           href="https://pomodoro-ochre.vercel.app"
           >
-         Pomodoro Timer
+         Pomodoro Timer : 
+         <br></br>
+         Built with JavaScript, React, React Hooks (useState), HTML, and CSS.
+         <br></br>
+         The functionality is the same as a real Pomodoro timer, but you can increase the focus or break durations.
+
           </a>
           </li>
        </ul>
-        </div>
+       </div>
+      
 
         <div className="stage-cube-cont">
           <div className="cubespinner">

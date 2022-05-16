@@ -44,7 +44,7 @@ const About = () => {
           <p >
             I studied the PERN stack with Thinkful. The bootcamp provided a 9 Month mentorship from a senior software engineer, meeting twice weekly to learn industry standards in both front and back-end technologies.
           </p>
-          <br></br>
+         
           <ul>
         <li > 
           <a 
@@ -67,8 +67,17 @@ const About = () => {
          Built with JavaScript, React, React Hooks (useState), HTML, and CSS.
          <br></br>
          The functionality is the same as a real Pomodoro timer, but you can increase the focus or break durations.
-
           </a>
+          </li>
+          <br></br>
+          <li>
+          <a 
+          href="https://grubdash-backend-project.herokuapp.com/"
+          >
+         Grubdash : 
+         <br></br>
+         Built an API - defining routes, URL’s and middleware to perform CRUD operations on dishes and orders resources
+         </a>
           </li>
        </ul>
        </div>
